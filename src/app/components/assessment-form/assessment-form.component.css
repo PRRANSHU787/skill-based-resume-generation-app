@@ -1,0 +1,15 @@
+.quiz p{
+	font-size: larger;
+	color:coral ;
+}
+.quiz-container {
+	max-width: 800px;
+	margin: 0 auto;
+	text-align: center;
+  }
+
+  .question-container {
+	margin-top: 20px;
+  }
+
+  /* Add more styles as needed */

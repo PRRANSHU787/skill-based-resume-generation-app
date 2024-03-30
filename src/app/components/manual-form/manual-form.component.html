@@ -1,1 +1,77 @@
-<p>manual-form works!</p>
+<p>manual-form works!</p><!-- add-skill.component.html -->
+<link rel="stylesheet" href="manual-form.component.css">
+<title>Manual Skill Add</title>
+<div class="manual-skill">
+	<div class="skills">
+		<div class="add-html">
+			<input id="tab-1" type="radio" name="tab" class="technical" checked />
+			<label for="tab-1" class="tab">Technical Skill</label>
+			<input id="tab-2" type="radio" name="tab" class="profession" />
+			<label for="tab-2" class="tab">Professional Skill</label>
+			<div class="add-form">
+				<div class="technical-htm">
+					<select id="skillLevel" name="skillLevel"
+						required>
+						<option value>select</option>
+						<option value>java</option>
+						<option value>Fullstack with script</option>
+						<option value>php</option>
+						<option value>Data Analytics</option>
+						<option value>Cybersecurity</option>
+						<option value>Software</option>
+						<option value>Operating System</option>
+						<option value>Technical Writing</option>
+						<option value>UI/UX</option>
+						<option value>Project Management</option>
+						<option value>Social Media</option>
+						<option value>Video editing</option>
+						<option value>Graphics</option>
+					</select>
+					<h4>Select the level of your skill.</h4>
+					<select id="skillLevel" name="skillLevel" required>
+						<option value="Beginner">select</option>
+						<option value="Beginner">Beginner</option>
+						<option value="Intermediate">Intermediate</option>
+						<option value="Advanced">Advanced</option>
+						<option value="Expert">Expert</option>
+					  </select>
+					  <br>
+					  <button>Add Skill</button>
+
+				</div>
+				<div class="profession-htm">
+					<select id="skillLevel" name="skillLevel"
+						required>
+						<option value>select</option>
+						<option value>Leadership</option>
+						<option value>Problem solving</option>
+						<option value>Active listening</option>
+						<option value>Attention to detail</option>
+						<option value>Critical thinking</option>
+						<option value>Creative</option>
+						<option value>Teamwork</option>
+						<option value>Marketing</option>
+						<option value>Adaptability</option>
+						<option value>Decision-making</option>
+					</select>
+					<h4>Select the level of your skill.</h4>
+					<select id="skillLevel" name="skillLevel" required>
+						<option value="Beginner">select</option>
+						<option value="Beginner">Beginner</option>
+						<option value="Intermediate">Intermediate</option>
+						<option value="Advanced">Advanced</option>
+						<option value="Expert">Expert</option>
+					  </select>
+					  <br>
+					  <button>Add Skill</button>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+</div>
+<!-- <div class="foot-lnk">
+	<label routerLink="">Cancel</label>
+</div> -->
+<router-outlet></router-outlet>

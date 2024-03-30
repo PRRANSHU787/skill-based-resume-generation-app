@@ -1,10 +1,11 @@
 .navbar {
 	background-color: #333;
 	padding: 10px 0;
+	height: 30px;
   }
 
   .container {
-	max-width: 1200px;
+	/* max-width: 1200px; */
 
   }
 
@@ -16,7 +17,7 @@
   }
 
   .navbar-item {
-	margin-right: 20px;
+	/* margin-right: 20px; */
 	display: flex;
 	justify-content:space-evenly ;
 	width: 100%;
@@ -32,4 +33,14 @@
 
   .navbar-link:hover {
 	background-color: #555;
+  }
+.dropdown-menu a{
+	color: #fff;
+}
+  .profile-menu .dropdown-menu {
+	right: 0;
+	left: unset;
+  }
+  .profile-menu .fa-fw {
+	margin-right: 10px;
   }

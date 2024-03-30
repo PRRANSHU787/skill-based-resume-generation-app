@@ -7,13 +7,14 @@
 			<a class="navbar-link" routerLink="profile">Home</a>
 		  </div>
 		  <div class="profile">
-			<a class="navbar-link" routerLink="resume">Demo</a>
+			<a class="navbar-link" routerLink="demo">Demo</a>
 		  </div>
 		  <div class="profile">
 			<a class="navbar-link" routerLink="resume">Create Resume</a>
 		  </div>
 		  <div class="update">
 			<a class="navbar-link" routerLink="update">Updatation</a>
+			<router-outlet></router-outlet>
 		  </div>
 		  <div class="contact">
 			<a class="navbar-link" routerLink="contact">Contact</a>
@@ -21,6 +22,12 @@
 		  <div class="login">
 			<a class="navbar-link" routerLink="login">login</a>
 		  </div>
+		  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" routerLink="#"><i class="fas fa-sliders-h fa-fw"></i> Account</a></li>
+            <li><a class="dropdown-item" routerLink="#"><i class="fas fa-cog fa-fw"></i> Settings</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" routerLink="#"><i class="fas fa-sign-out-alt fa-fw"></i> Log Out</a></li>
+          </ul>
 		</li>
 	  </ul>
 	</div>

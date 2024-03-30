@@ -1,7 +1,11 @@
-<p>updatation-form works!</p>
+
 <div class="dropdown">
 
-		<a class="navbar-link" routerLink="manual">manual</a>
-		<a class="navbar-link" routerLink="assessment">Assessment</a>
+	<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+		<li><a class="dropdown-item" routerLink="resume"><i class="fas fa-sliders-h fa-fw"></i> Manual</a></li>
+		<li><a class="dropdown-item" routerLink="assessment"><i class="fas fa-cog fa-fw"></i> Assessment</a></li>
+	  </ul>
 	</div>
+	<router-outlet></router-outlet>
+<app-profile-form></app-profile-form>
   <router-outlet></router-outlet>

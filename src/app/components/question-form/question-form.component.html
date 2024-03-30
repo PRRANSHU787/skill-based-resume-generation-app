@@ -1,0 +1,12 @@
+<p>question-form works!</p>
+<div class="question">
+	<h2>{{ question.text }}</h2>
+	<ul>
+	  <li *ngFor="let option of question.options">
+		<label>
+		  <input type="radio" name="answer" [value]="option" (change)="selectAnswer(option)">
+		  {{ option }}
+		</label>
+	  </li>
+	</ul>
+  </div>

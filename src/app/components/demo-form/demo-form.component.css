@@ -1,5 +1,9 @@
+*{
+	background-image: url("https://www.technocrazed.com/wp-content/uploads/2015/12/Simple-wallpaper-12.jpg");
+}
 .demo-form {
     padding: 20px;
+
   }
 
   .template-list {
@@ -15,7 +19,8 @@
 
   .template button {
     padding: 10px;
-    background-color: #f0f0f0;
+	color: white;
+    background-color: #534c4c;
     border: none;
     cursor: pointer;
   }
@@ -23,8 +28,8 @@
   .template-image {
     display: block;
     margin-top: 10px;
-    width: 100px;
-    height: auto;
+    width: 400px;
+    height: 100%;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;

@@ -1,13 +1,14 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { CalenderFormComponent } from "../calender-form/calender-form.component";
 
 
 @Component({
-  selector: 'app-resume-data-form',
-  standalone: true,
-  imports: [],
-  templateUrl: './resume-data-form.component.html',
-  styleUrl: './resume-data-form.component.css'
+    selector: 'app-resume-data-form',
+    standalone: true,
+    templateUrl: './resume-data-form.component.html',
+    styleUrl: './resume-data-form.component.css',
+    imports: [CalenderFormComponent]
 })
 export class ResumeDataFormComponent {
 	linkInput: string = '';

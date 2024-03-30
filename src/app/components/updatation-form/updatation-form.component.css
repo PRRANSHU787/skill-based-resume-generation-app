@@ -1,15 +1,16 @@
-.dropdown{
-	display: flex;
-	align-items: center;
-	background-color: currentColor;
-}
-.navbar-link {
+.dropdown-menu, a{
 	color: #fff;
+	background-color: black;
 	text-decoration: none;
-	padding: 10px;
-	border-radius: 5px;
-	transition: background-color 0.3s ease;
+}
+  .profile-menu .dropdown-menu {
+	right: 0;
+	left: unset;
   }
+  .profile-menu .fa-fw {
+	margin-right: 10px;
+  }
+
 
   .navbar-link:hover {
 	background-color: #555;

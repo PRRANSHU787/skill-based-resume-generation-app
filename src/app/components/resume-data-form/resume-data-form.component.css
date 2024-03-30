@@ -1,3 +1,6 @@
+body{
+	background-color: beige;
+}
 .resume-data{
 	background-image: url("https://images.pexels.com/photos/62693/pexels-photo-62693.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
 	background-repeat: no-repeat;
@@ -73,3 +76,7 @@ form {
 	justify-content: space-around;
 	align-items: center;
   }
+.line{
+	background-color: black;
+	height: 2px;
+}
