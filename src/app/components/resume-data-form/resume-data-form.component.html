@@ -8,62 +8,62 @@
 	<div class="form-content">
 	  <label>
 		First Name:
-		<input type="text" formControlName="firstName" required />
+		<input type="text" formControlName="firstName" placeholder="firstName" required />
 		<span class="error-message" *ngIf="firstName.errors?.required && submitted">First Name is required.</span>
 	  </label>
 	  <label>
 		Last Name:
-		<input type="text" formControlName="lastName" required />
+		<input type="text" formControlName="lastName" placeholder="lastName" required />
 		<span class="error-message" *ngIf="lastName.errors?.required && submitted">Last Name is required.</span>
 	  </label>
 	  <label>
 		Job Title:
-		<input type="text" formControlName="jobTitle" />
+		<input type="text" formControlName="jobTitle" placeholder="Job, Education" />
 	  </label>
 	  <label>
 		Email Address:
-		<input type="email" formControlName="email" required />
+		<input type="email" formControlName="email" placeholder="Email" required />
 		<span class="error-message" *ngIf="email.errors?.required && submitted">Email Address is required.</span>
 		<span class="error-message" *ngIf="email.invalid && email.errors?.email && submitted">Invalid email address.</span>
 	  </label>
 	  <label>
 		City:
-		<input type="text" formControlName="city" required />
+		<input type="text" formControlName="city" placeholder="City" required />
 		<span class="error-message" *ngIf="city.errors?.required && submitted">City is required.</span>
 	  </label>
 	  <label>
 		State:
-		<input type="text" formControlName="state" required />
+		<input type="text" formControlName="state" placeholder="State" required />
 		<span class="error-message" *ngIf="state.errors?.required && submitted">State is required.</span>
 	  </label>
 	  <label>
 		Country:
-		<input type="text" formControlName="country" required />
+		<input type="text" formControlName="country" placeholder="Country" required />
 		<span class="error-message" *ngIf="country.errors?.required && submitted">Country is required.</span>
 	  </label>
 	  <label>
 		Address:
-		<input type="text" formControlName="address" required />
+		<input type="text" formControlName="address" placeholder="flat no, Department, Area" required />
 		<span class="error-message" *ngIf="address.errors?.required && submitted">Address is required.</span>
 	  </label>
 	  <label>
 		Zip Code:
-		<input type="number" formControlName="zipCode" required />
+		<input type="number" formControlName="zipCode" placeholder="Country code" required />
 		<span class="error-message" *ngIf="zipCode.errors?.required && submitted">Zip Code is required.</span>
 	  </label>
 	  <label>
 		Phone:
-		<input type="tel" formControlName="phone" required />
+		<input type="tel" formControlName="phone" placeholder="Mobile no." required />
 		<span class="error-message" *ngIf="phone.errors?.required && submitted">Phone is required.</span>
 	  </label>
 	  <label>
 		Leetcode link:
-		<input type="text" formControlName="code1" required />
+		<input type="text" formControlName="code1" placeholder="Profile link" required />
 	  </label>
 	  <label>
 		Industry Training :
-		<input type="text" formControlName="training" required />
-		<app-calender-form></app-calender-form>
+		<input type="text" formControlName="training" placeholder="Company Name, Title" required />
+		<!-- <app-calender-form></app-calender-form> -->
 	  </label>
 	  <label>
 		Culture Activity:
@@ -71,7 +71,7 @@
 	  </label>
 	  <label>
 		Professional Activity:
-		<input type="text" formControlName="profession" required />
+		<input type="text" formControlName="profession" placeholder="Activity in Company or College" required />
 	  </label>
 	  <label class="social-label">
 		<div class="input-container">

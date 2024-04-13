@@ -17,8 +17,8 @@ export class NavbarComponent {
 		{ name: 'Projects', link: '/projects' },
 		{ name: 'Contact', link: '/contact' }
 	  ];
-	  openNav: boolean = false;
-	  isDropdownOpen: boolean = false;
+	  openNav: boolean = true;
+	  isDropdownOpen: boolean = true;
 
   toggleDropdown() {
     this.isDropdownOpen = !this.isDropdownOpen;
